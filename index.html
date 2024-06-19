@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azan Clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="main-content">
+            <div class="clock-container">
+                <div class="current-time"></div>
+                <div class="clock">
+                    <div class="prayer-name"></div>
+                    <div class="prayer-time"></div>
+                    <div class="countdown"></div>
+                </div>
+                <div class="date-container">
+                    <span class="islamic-date"></span>
+                </div>
+                <div class="prayer-times-container">
+                    <div class="prayer-time-box" id="fajr-time"></div>
+                    <div class="prayer-time-box" id="sunrise-time"></div> <!-- Added Sunrise -->
+                    <div class="prayer-time-box" id="dhuhr-time"></div>
+                    <div class="prayer-time-box" id="asr-time"></div>
+                    <div class="prayer-time-box" id="maghrib-time"></div>
+                    <div class="prayer-time-box" id="isha-time"></div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
